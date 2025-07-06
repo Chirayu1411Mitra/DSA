@@ -1,3 +1,5 @@
+package hashmaps;
+
 import java.util.*;
 public class NonRepeatingChar{
     public static void main(String[] args){
