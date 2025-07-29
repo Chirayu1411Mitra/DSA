@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class insertion_sort {
+public class     insertion_sort {
     static void swap (int [] arr, int first,int second){
         int temp=arr[first];
         arr[first]=arr[second];

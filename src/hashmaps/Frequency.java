@@ -8,7 +8,12 @@ public class Frequency{
         for(int i : arr){
             map.put(i, map.getOrDefault(i,0)+1);
             }
-        System.out.println(map);
+        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
+            if (entry.getValue() == 3) {
+                System.out.println(entry.getKey());
+            }
+        }
+
 
 
     }

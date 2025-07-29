@@ -10,7 +10,7 @@ public class basics{
 
     System.out.println(map.get("Hello"));
 
-    map.remove("World");
+   // map.remove("World");
     System.out.println(map.containsKey("every"));   // check for key because uts aleays unique
     
 
